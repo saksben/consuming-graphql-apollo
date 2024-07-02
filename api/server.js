@@ -27,6 +27,6 @@ const server = new ApolloServer({
 
 server.applyMiddleware({ app });
 
-app.listen(process.env.PORT || 4000, () => {
-  console.log(`graphQL running at port 4000`);
+app.listen(process.env.PORT || 4002, () => {
+  console.log(`graphQL running at port 4002`);
 });
